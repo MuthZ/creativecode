@@ -1,4 +1,4 @@
-const client = new Discord.Client({disableEveryone: false});
+const Discord = require('discord.js');
 
 module.exports.run = async (client, message, args) => {
 
