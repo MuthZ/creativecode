@@ -129,7 +129,7 @@ client.on("guildMemberRemove", member => { // MSG DE SAIDA
 
 client.on('message', message =>{
 	if(message.content.startsWith("nerd dlc")) {
-		message.channel.send(`Sim, verdade.`)
+		message.channel.send(`Sim, verdade. :D`)
 	}
   	if(message.content.includes("https://discord.gg/")){
       		message.delete()
