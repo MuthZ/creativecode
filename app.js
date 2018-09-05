@@ -54,19 +54,6 @@ client.on("ready", () => {
     console.log(`\nBot iniciado com sucesso!`); 
 });
 
-client.on('ready', () => {
-    client.channels.get("480833829297455120").bulkDelete("1");
-    client.guilds.get('480829604035166220').channels.get('480833829297455120').send(`**Precisa de suporte?**
-    Caso precise, clique em uma reação de uma determinada linguagem!!
-    
-    <:java:486541662680776714> **- JAVA**
-    <:javascript:486542716919087114> **- DISCORD.js**
-    <:kotlin:486542105137643560> **- KOTLIN**
-    <:jda:486542104563154944> **- JDA**
-    <:python:486541788283273246> **- DISCORD.py**
-    :desktop: **PYTHON**`)
-
-});
 
 client.on("guildMemberAdd", member => { // MSG DE BEM-VINDO
 	 const entrou = new Discord.RichEmbed()
