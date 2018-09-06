@@ -9,6 +9,9 @@
     "test": "standard",
     "fix": "standard --fix"
   },
+  "engines": {
+    "node": "10.7.0"
+  },
   "author": "none",
   "license": "MIT",
   "dependencies": {
