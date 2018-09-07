@@ -14,10 +14,9 @@ client.on('message', message => {
   } catch (err) {
     console.error(err)
   }
-})
 
-client.on('ready', () => {
-  console.log(`Bot iniciado com sucesso!`)
+  client.on('ready', () => {
+    console.log(`Bot iniciado com sucesso!`)
+  })
 })
-
 client.login(process.env.TokenBOT)

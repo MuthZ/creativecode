@@ -15,9 +15,9 @@
   "author": "none",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.3.0",
-    "fs": "0.0.1-security",
-    "dateformat": "^3.0.3"
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security"
   },
   "devDependencies": {
     "nodemon": "^1.18.4",
