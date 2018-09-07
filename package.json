@@ -15,9 +15,14 @@
   "author": "none",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.1.2",
     "discord.js": "^11.3.0",
     "fs": "0.0.1-security",
-    "dateformat": "^3.0.3"
+    "dateformat": "^3.0.3",
+    "readline": "^1.3.0",
+    "mc-hermes": "^0.1.5",
+    "quick.hook": "^1.4.2",
+    "gif-search": "^2.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.4",
