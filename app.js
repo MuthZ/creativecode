@@ -19,4 +19,4 @@ client.on('message', message => {
     console.log(`Bot iniciado com sucesso!`)
   })
 })
-client.login(process.env.botTOKEN)
+client.login(process.env.TokenBOT)
