@@ -28,10 +28,14 @@ client.on('guildMemberAdd', member => {
     .setColor('#faaf05')
     .setTimestamp()
 
-  member.addRole('486556508776300555')
+  if (member.bot === true) {  
+  member.addRole('485817682239946772');
+  member.addRole('486556508776300555');
+} else {
+  member.addRole('486556508776300555');
   member.guild.channels.get('480833249635991572').send(entrou)
-})
-
+ })
+}
 client.on('guildMemberRemove', member => {
   const saiu = new Discord.RichEmbed()
     .setTitle(`Tchau`)
